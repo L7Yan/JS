@@ -1,5 +1,5 @@
 function debounce(fn, delay, immediate = false) {
-定义一个定时器, 保存上一次的定时器
+//定义一个定时器, 保存上一次的定时器
   let timer = null
   let isInvoke = false
   const _debounce = function(...args) {
